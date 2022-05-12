@@ -627,6 +627,7 @@ MonoBehaviour:
   isGameActive: 1
   gameOverText: {fileID: 1927334436}
   restartButton: {fileID: 76436211}
+  titleScreen: {fileID: 2007270343}
 --- !u!4 &453336222
 Transform:
   m_ObjectHideFlags: 0
@@ -966,6 +967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ed090bc2dd2e24a86d91c2f27ca08d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficulty: 1
 --- !u!1 &1043111703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ed090bc2dd2e24a86d91c2f27ca08d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficulty: 3
 --- !u!1 &1188466479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119, y: 109.38}
+  m_AnchoredPosition: {x: -180.39, y: 112.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355153729
@@ -1758,6 +1761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ed090bc2dd2e24a86d91c2f27ca08d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficulty: 2
 --- !u!1 &1829648827
 GameObject:
   m_ObjectHideFlags: 0

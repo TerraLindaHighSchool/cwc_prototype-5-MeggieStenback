@@ -5,11 +5,11 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     private Rigidbody targetRb;
-    private float minSpeed = 12;
-    private float maxSpeed = 16;
+    private float minSpeed = 10;
+    private float maxSpeed = 14;
     private float maxTorque = 10;
     private float xRange = 4;
-    private float ySpawnPos = -6;
+    private float ySpawnPos = -1;
     private GameManager gameManager;
     public int pointValue;
     public ParticleSystem explosionParticle;
